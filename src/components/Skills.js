@@ -5,7 +5,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/color-sharp.webp"
 
 export const Skills = () => {
   const responsive = {
@@ -35,7 +35,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>We possess a diverse range of skills that are key to unlocking online success for your business. With expertise in SEO (Search Engine Optimization), SMMA (Social Media Marketing Agency), and web development, we have the tools and knowledge to elevate your digital presence and drive impressive results.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
@@ -43,7 +43,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>SEO</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
@@ -51,14 +51,25 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>SMMA</h5>
                             </div>
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img src={colorSharp} srcset="
+  colorSharp-256w.jpg 256w,
+  colorSharp-776w.jpg 776w,
+  colorSharp-1010w.jpg 1010w,
+  colorSharp-1200w.jpg 1200w,
+  colorSharp-1380w.jpg 1380w,
+  colorSharp-1540w.jpg 1540w,
+  colorSharp-1680w.jpg 1680w,
+  colorSharp-1810w.jpg 1810w,
+  colorSharp-1930w.jpg 1930w,
+  colorSharp-2048w.jpg 2048w
+" sizes="(max-width: 1280px) 100vw, 40vw" alt="Image" />
     </section>
   )
 }
