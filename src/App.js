@@ -42,7 +42,7 @@ function App() {
             justifyContent: "center",
             alignItems: "center",
             height: "100vh",
-            background: "linear-gradient(to right, #00BFFF, #FF1493)",
+            background: "linear-gradient(to right, #d63384, #6610f2)",
             animation: "fade-out 2s forwards",
           }}
         >
