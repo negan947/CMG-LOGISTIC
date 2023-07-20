@@ -34,7 +34,15 @@ export const NavBar = () => {
 
   return (
     <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="md" style={{
+        height: "100px",
+        position: "fixed",
+        top: 0,
+        left: 0,
+        right: 0,
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        backdropFilter: scrolled ? "blur(10px)" : "none"
+      }} className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/#home">
             <img src={logo} alt="Logo" />
