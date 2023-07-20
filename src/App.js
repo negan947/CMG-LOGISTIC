@@ -1,6 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState, useEffect } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
@@ -8,17 +9,58 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Services } from "./components/Services";
+import { BarLoader } from "react-spinners";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    let intervalId;
+    let count = 0;
+
+    intervalId = setInterval(() => {
+      count += 10;
+      setProgress(count);
+
+      if (count >= 100) {
+        clearInterval(intervalId);
+        setIsLoading(false);
+      }
+    }, 500);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
     <div className="App">
-      <NavBar />
-      <Banner />
-      <Skills />
-      <Services />
-      <Projects />
-      <Contact />
-      <Footer />
+      {isLoading ? (
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+            background: "linear-gradient(to right, #00BFFF, #FF1493)",
+            animation: "fade-out 2s forwards",
+          }}
+        >
+          <BarLoader color="#fff" height={10} width={200} />
+          <p style={{ fontSize: "24px", color: "#fff" }}>Loading...</p>
+        </div>
+      ) : (
+        <>
+          <NavBar />
+          <Banner />
+          <Skills />
+          <Services />
+          <Projects />
+          <Contact />
+          <Footer />
+          <div style={{ animation: "fade-out 2s forwards" }}></div>
+        </>
+      )}
     </div>
   );
 }
