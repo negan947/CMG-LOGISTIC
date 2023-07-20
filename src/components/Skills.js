@@ -58,18 +58,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img src={colorSharp} srcset="
-  colorSharp-256w.jpg 256w,
-  colorSharp-776w.jpg 776w,
-  colorSharp-1010w.jpg 1010w,
-  colorSharp-1200w.jpg 1200w,
-  colorSharp-1380w.jpg 1380w,
-  colorSharp-1540w.jpg 1540w,
-  colorSharp-1680w.jpg 1680w,
-  colorSharp-1810w.jpg 1810w,
-  colorSharp-1930w.jpg 1930w,
-  colorSharp-2048w.jpg 2048w
-" sizes="(max-width: 1280px) 100vw, 40vw" alt="Image" />
+        
     </section>
   )
 }
