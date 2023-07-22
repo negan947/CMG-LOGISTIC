@@ -1,10 +1,41 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
+import { Stripe } from "stripe";
+
+
+const stripe = new Stripe("sk_test_51Gn4IkL3vxi3m0Vhu2oHz9OMpH1h5ZLzmbbyyzIWUjr26R6EmS5UZKETAuPBbqJenWtNeaBcoUQYIfMIsPpq5Br600Bcp7Xfzf");
+
+
 
 export const Services = () => {
+  const handleCheckout = async (productName, price) => {
+    const session = await stripe.checkout.sessions.create({
+      payment_method_types: ["card"],
+      line_items: [
+        {
+          price_data: {
+            currency: "eur",
+            product_data: {
+              name: "Service Name",
+            },
+            unit_amount: price,
+          },
+          quantity: 1,
+        },
+      ],
+      mode: "payment",
+      success_url: "http://localhost:3000/",
+      cancel_url: "http://localhost:3000/",
+    });
+    window.location.href = session.url;
+  };
+
+
+
+
   return (
-    <div>
+    <div id="services">
       <h2 style={{ 
         fontSize: "86px",
         marginBottom: "20px",
@@ -151,6 +182,10 @@ export const Services = () => {
             
           </ul>
           <button
+            onClick={() => handleCheckout("Service Name 1", 68000)}
+
+
+            
             style={{
               backgroundColor: "transparent",
               border: "none",
@@ -165,6 +200,7 @@ export const Services = () => {
               backdropFilter: "blur(5px) brightness(70%)",
               transform: "scale(1)",
             }}
+            
             onMouseOver={(e) => {
               e.currentTarget.style.transform = "scale(1.1)";
             }}
@@ -299,6 +335,7 @@ export const Services = () => {
             </li>
           </ul>
           <button
+            onClick={() => handleCheckout("Service Name 1", 118000)}
             style={{
               backgroundColor: "transparent",
               border: "none",
@@ -444,6 +481,7 @@ export const Services = () => {
             </li>
           </ul>
           <button
+            onClick={() => handleCheckout("Service Name 1", 172000)}
             style={{
               backgroundColor: "transparent",
               border: "none",
@@ -472,3 +510,4 @@ export const Services = () => {
     </div>
   );
 };
+
