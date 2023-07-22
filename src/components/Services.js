@@ -182,7 +182,7 @@ export const Services = () => {
             
           </ul>
           <button
-            onClick={() => handleCheckout("Service Name 1", 68000)}
+            onClick={() => handleCheckout("Basic", 68000)}
 
 
             
@@ -335,7 +335,7 @@ export const Services = () => {
             </li>
           </ul>
           <button
-            onClick={() => handleCheckout("Service Name 1", 118000)}
+            onClick={() => handleCheckout("Premium", 118000)}
             style={{
               backgroundColor: "transparent",
               border: "none",
@@ -357,7 +357,7 @@ export const Services = () => {
               e.currentTarget.style.transform = "scale(1)";
             }}
           >
-            Select Plan
+            Buy Premium
           </button>
         </div>
         <div
@@ -481,7 +481,7 @@ export const Services = () => {
             </li>
           </ul>
           <button
-            onClick={() => handleCheckout("Service Name 1", 172000)}
+            onClick={() => handleCheckout("Business", 172000)}
             style={{
               backgroundColor: "transparent",
               border: "none",
@@ -503,7 +503,7 @@ export const Services = () => {
               e.currentTarget.style.transform = "scale(1)";
             }}
           >
-            Select Plan
+            Buy Business
           </button>
         </div>
       </div>
