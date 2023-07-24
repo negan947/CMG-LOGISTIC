@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
@@ -14,6 +14,10 @@ export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+  const containerRef = useRef(null);
+  const navbarRef = useRef(null);
+  
 
   useEffect(() => {
     const onScroll = () => {
@@ -33,6 +37,17 @@ export const NavBar = () => {
     setActiveLink(value);
   }
 
+  const onToggle = () => {
+    setExpanded(!expanded);
+    if (containerRef.current) {
+      containerRef.current.style.height = expanded ? 'auto' : `${containerRef.current.getBoundingClientRect().height}px`;
+    }
+    if (expanded) {
+      navbarRef.current.style.height = '100px';
+    } else {
+      navbarRef.current.style.height = '270px';
+    }
+  }
   return (
     <Router>
       <Navbar expand="md" style={{
@@ -43,12 +58,12 @@ export const NavBar = () => {
         right: 0,
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
         backdropFilter: scrolled ? "blur(10px)" : "none"
-      }} className={scrolled ? "scrolled" : ""}>
-        <Container>
+      }} className={scrolled ? "scrolled" : ""} expanded={expanded} onToggle={onToggle} ref={navbarRef}>
+        <Container ref={containerRef} fluid={expanded} style={{ height: expanded ? 'auto' : '0px', width: '100%' }}>
           <Navbar.Brand href="/#home">
-            <img src={logo} alt="Logo" />
+            <img className="logodev" src={logo} alt="Logodev1" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <Navbar.Toggle aria-controls="basic-navbar-nav"> 
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">

@@ -82,6 +82,10 @@ p.danger {
 	color: red;
 }
 /************ Navbar Css ************/
+
+.logodev {
+  width: 100px;
+}
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -223,7 +227,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 	transform: translateY(8px) rotate(-45deg);
-	background-color: #fff;
+	background-color: #fff;     
 	height: 2px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
