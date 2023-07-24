@@ -42,7 +42,7 @@ export const Projects = () => {
     },
   ];
 
-  const Projects2 = [...projects];
+  
 
 
   return (
@@ -87,16 +87,7 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                     <Row>
-                      {
-                      Projects2.map((project, index) => {
-                        return (
-                        <ProjectCard
-                        key={index}
-                        {...project}/>
-        )
-      })
-    }
-  </Row>
+                     </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

@@ -10,6 +10,10 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Services } from "./components/Services";
 import { BarLoader } from "react-spinners";
+import { Testimonials } from "./components/Testimonials";
+import  SuccesPage from "./components/SuccessPage";
+//import { Switch, Route } from "react-router-dom";
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -33,6 +37,7 @@ function App() {
   }, []);
 
   return (
+    
     <div className="App">
       {isLoading ? (
         <div
@@ -56,8 +61,10 @@ function App() {
           <Skills />
           <Services />
           <Projects />
+          <Testimonials />
           <Contact />
           <Footer />
+          
           <div style={{ animation: "fade-out 2s forwards" }}></div>
         </>
       )}
