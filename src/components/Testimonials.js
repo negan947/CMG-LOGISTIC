@@ -24,26 +24,6 @@ export const Testimonials = () => {
         Testimonials
       </div>
       <div style={{ 
-        width: '400px',
-        height: '400px', 
-        borderRadius: '10px',
-        background: "linear-gradient(to bottom right, #d63384, #6610f2)",
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
-        <div style={{
-          padding: '20px',
-          backgroundColor: 'white',
-          borderRadius: '10px',
-          boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.5)',
-          maxWidth: '80%',
-          textAlign: 'center',
-        }}>
-          "This is a quote from someone. It can be a testimonial or a review of your product or service."
-        </div>
-      </div>
-      <div style={{ 
         width: '400px', 
         height: '400px', 
         borderRadius: '10px',
@@ -51,15 +31,22 @@ export const Testimonials = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        padding: '20px',
       }}>
         <div style={{
-          padding: '20px',
-          backgroundColor: 'white',
-          borderRadius: '10px',
-          boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.5)',
-          maxWidth: '80%',
-          textAlign: 'center',
-        }}>
+              backgroundColor: "transparent",
+              border: "none",
+              borderRadius: "20px",
+              color: "#fff",
+              cursor: "pointer",
+              fontSize: "20px",
+              marginTop: "40px",
+              padding: "20px 70px",
+              transition:
+                "background-color 0.3s ease, transform 0.3s ease",
+              backdropFilter: "blur(5px) brightness(70%)",
+              transform: "scale(1)",
+            }}>
           "This is another quote from someone. It can be a testimonial or a review of your product or service."
         </div>
       </div>
@@ -71,16 +58,50 @@ export const Testimonials = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        padding: '20px',
       }}>
         <div style={{
-          padding: '20px',
-          backgroundColor: 'white',
-          borderRadius: '10px',
-          boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.5)',
-          maxWidth: '80%',
-          textAlign: 'center',
-        }}>
-          "This is a third quote from someone. It can be a testimonial or a review of your product or service."
+              backgroundColor: "transparent",
+              border: "none",
+              borderRadius: "20px",
+              color: "#fff",
+              cursor: "pointer",
+              fontSize: "20px",
+              marginTop: "40px",
+              padding: "20px 70px",
+              transition:
+                "background-color 0.3s ease, transform 0.3s ease",
+              backdropFilter: "blur(5px) brightness(70%)",
+              transform: "scale(1)",
+            }}>
+          "This is another quote from someone. It can be a testimonial or a review of your product or service."
+        </div>
+      </div>
+      <div style={{ 
+        width: '400px', 
+        height: '400px', 
+        borderRadius: '10px',
+        background: "linear-gradient(to bottom right, #d63384, #6610f2)",
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: '20px',
+      }}>
+        <div style={{
+              backgroundColor: "transparent",
+              border: "none",
+              borderRadius: "20px",
+              color: "#fff",
+              cursor: "pointer",
+              fontSize: "20px",
+              marginTop: "40px",
+              padding: "20px 70px",
+              transition:
+                "background-color 0.3s ease, transform 0.3s ease",
+              backdropFilter: "blur(5px) brightness(70%)",
+              transform: "scale(1)",
+            }}>
+          "This is another quote from someone. It can be a testimonial or a review of your product or service."
         </div>
       </div>
     </div>
