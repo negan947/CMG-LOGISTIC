@@ -38,14 +38,21 @@ export const Testimonials = () => {
               border: "none",
               borderRadius: "20px",
               color: "#fff",
-              cursor: "pointer",
               fontSize: "20px",
               marginTop: "40px",
               padding: "20px 70px",
               transition:
                 "background-color 0.3s ease, transform 0.3s ease",
-              backdropFilter: "blur(5px) brightness(70%)",
+              backdropFilter: "blur(5px) brightness(65%)",
               transform: "scale(1)",
+            }}
+            
+            onMouseOver={(e) => {
+              e.currentTarget.style.transform = "scale(1.05)";
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.transform = "scale(1)";
+            
             }}>
           "This is another quote from someone. It can be a testimonial or a review of your product or service."
         </div>
@@ -65,7 +72,6 @@ export const Testimonials = () => {
               border: "none",
               borderRadius: "20px",
               color: "#fff",
-              cursor: "pointer",
               fontSize: "20px",
               marginTop: "40px",
               padding: "20px 70px",
@@ -73,6 +79,14 @@ export const Testimonials = () => {
                 "background-color 0.3s ease, transform 0.3s ease",
               backdropFilter: "blur(5px) brightness(70%)",
               transform: "scale(1)",
+            }}
+            
+            onMouseOver={(e) => {
+              e.currentTarget.style.transform = "scale(1.05)";
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.transform = "scale(1)";
+            
             }}>
           "This is another quote from someone. It can be a testimonial or a review of your product or service."
         </div>
@@ -92,7 +106,6 @@ export const Testimonials = () => {
               border: "none",
               borderRadius: "20px",
               color: "#fff",
-              cursor: "pointer",
               fontSize: "20px",
               marginTop: "40px",
               padding: "20px 70px",

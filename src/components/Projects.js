@@ -1,8 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.webp";
-import projImg2 from "../assets/img/project-img2.webp";
-import projImg3 from "../assets/img/project-img3.webp";
+import projImg1 from "../assets/img/project-img1.png";
+import projImg2 from "../assets/img/project-img2.png";
+import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
 import colorSharp2 from "../assets/img/color-sharp2.webp";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,24 +12,24 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "CAR RENTAL 🚗",
+      description: "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "COINDOM 🪙",
+      description: "Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "GYMATE 🏋️",
+      description: "A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "ECOMMERCE 🛒",
+      description: "With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.",
+      imgUrl: projImg4,
     },
     {
       title: "Business Startup",
@@ -50,23 +51,12 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col size={12}>
-            <TrackVisibility>
+            <TrackVisibility once>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
                 <p>We take pride in presenting you with a collection of stunning websites we have created for our satisfied clients. Each project represents our dedication to delivering exceptional design, functionality, and a seamless user experience. Explore the showcase below and get inspired by our successful collaborations:</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
