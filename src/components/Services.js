@@ -17,7 +17,7 @@ export const Services = () => {
           price_data: {
             currency: "eur",
             product_data: {
-              name: "Service Name",
+              name: productName,
             },
             unit_amount: price,
           },
