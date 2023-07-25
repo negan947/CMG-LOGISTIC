@@ -31,7 +31,7 @@ function App() {
         clearInterval(intervalId);
         setIsLoading(false);
       }
-    }, 500);
+    }, 300);
 
     return () => clearInterval(intervalId);
   }, []);
