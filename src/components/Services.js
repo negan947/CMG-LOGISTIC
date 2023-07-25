@@ -182,7 +182,7 @@ export const Services = () => {
             
           </ul>
           <button
-            onClick={() => handleCheckout("Basic", 68000)}
+            onClick={() => handleCheckout("Basic Package", 68000)}
 
 
             
@@ -335,7 +335,7 @@ export const Services = () => {
             </li>
           </ul>
           <button
-            onClick={() => handleCheckout("Premium", 118000)}
+            onClick={() => handleCheckout("Premium Package", 118000)}
             style={{
               backgroundColor: "transparent",
               border: "none",
@@ -481,7 +481,7 @@ export const Services = () => {
             </li>
           </ul>
           <button
-            onClick={() => handleCheckout("Business", 172000)}
+            onClick={() => handleCheckout("Business Package", 172000)}
             style={{
               backgroundColor: "transparent",
               border: "none",
