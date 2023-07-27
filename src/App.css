@@ -741,7 +741,7 @@ color: transparent;
   }
 }
 
-/*  Services */
+/*  Services  */
 
 
 .servicestitle {
@@ -755,5 +755,67 @@ color: transparent;
 @media (max-width: 768px) {
   .servicestitle {
     font-size: 12vw;
+  }
+}
+
+
+
+.containerservices {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.containerservicesbox {
+  background: linear-gradient(to bottom right, #d63384, #6610f2);
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 380px;
+  height: 780px;
+}
+
+@media (max-width: 600px) {
+  .containerservicesbox {
+    height: 820px;
+  }
+}
+
+
+.containerservicesbox2{
+  background: linear-gradient(to bottom right, #d63384, #6610f2);
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 380px;
+  height: 780px;
+}
+
+@media (max-width: 600px) {
+  .containerservicesbox2 {
+    height: 820px;
+  }
+}
+
+
+.containerservicesbox3{
+  background: linear-gradient(to bottom right, #d63384, #6610f2);
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 380px;
+  height: 780px;
+}
+
+@media (max-width: 600px) {
+  .containerservicesbox3 {
+    height: 820px;
   }
 }

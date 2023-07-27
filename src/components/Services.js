@@ -40,26 +40,11 @@ export const Services = () => {
         Services
       </h2>
       
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          flexWrap: "wrap",
-          alignItems: "center", // Center items vertically in mobile view
-        }}
+      <div className="containerservices"
+        
       >
-        <div
-          style={{
-            // Styles for desktop and mobile view
-            background: "linear-gradient(to bottom right, #d63384, #6610f2)",
-            borderRadius: "25px",
-            boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
-            margin: "20px",
-            padding: "20px",
-            textAlign: "center",
-            width: "380px",
-            height: "780px",
-          }}
+        <div className="containerservicesbox"
+          
         >
           <h3 style={{ fontSize: "24px", marginBottom: "10px", color: "white" }}>
             Basic
@@ -205,17 +190,7 @@ export const Services = () => {
           </button>
         </div>
         <div
-          style={{
-            // Styles for desktop and mobile view
-            background: "linear-gradient(to bottom right, #d63384, #6610f2)",
-            borderRadius: "25px",
-            boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
-            margin: "20px",
-            padding: "20px",
-            textAlign: "center",
-            width: "380px",
-            height: "780px",
-          }}
+          className="containerservicesbox2"
         >
           <h3 style={{ fontSize: "24px", marginBottom: "10px" }}>Premium</h3>
           <p style={{ fontSize: "56px", marginBottom: "20px" }}>$1180</p>
@@ -354,17 +329,7 @@ export const Services = () => {
           </button>
         </div>
         <div
-          style={{
-            // Styles for desktop and mobile view
-            background: "linear-gradient(to bottom right, #d63384, #6610f2)",
-            borderRadius: "25px",
-            boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
-            margin: "20px",
-            padding: "20px",
-            textAlign: "center",
-            width: "380px",
-            height: "780px",
-          }}
+          className="containerservicesbox3"
         >
           <h3 style={{ fontSize: "24px", marginBottom: "10px" }}>Business</h3>
           <p style={{ fontSize: "56px", marginBottom: "20px" }}>$1720</p>
