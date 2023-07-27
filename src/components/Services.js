@@ -36,17 +36,10 @@ export const Services = () => {
 
   return (
     <div id="services">
-      <h2 style={{ 
-        fontSize: "86px",
-        marginBottom: "20px",
-        textAlign: "center",
-        background: "linear-gradient(to bottom right, #d63384, #6610f2)",
-        WebkitBackgroundClip: "text",
-        WebkitTextFillColor: "transparent"
-    
-       }}>
+      <h2 className="servicestitle" >
         Services
       </h2>
+      
       <div
         style={{
           display: "flex",

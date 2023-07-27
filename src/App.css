@@ -741,3 +741,19 @@ color: transparent;
   }
 }
 
+/*  Services */
+
+
+.servicestitle {
+  font-size: 5vw;
+  margin-bottom: 2vw;
+  text-align: center;
+  background: linear-gradient(to bottom right, #d63384, #6610f2);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 768px) {
+  .servicestitle {
+    font-size: 12vw;
+  }
+}
