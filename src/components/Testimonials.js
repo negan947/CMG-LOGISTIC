@@ -4,7 +4,7 @@ import Img3 from "../assets/img/pfp2.jpg";
 export function Testimonials() {
   return (
     <>
-      <section className="testimonials-section">
+      <section className="testimonials-section" id="testimonials">
         <div className="container">
           <div className="testimonials-content">
             <div className="testimonials-content__title">
