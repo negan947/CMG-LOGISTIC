@@ -160,24 +160,12 @@ export const Services = () => {
             
           </ul>
           <button
+            className="buttonservices"
             onClick={() => handleCheckout("Basic Package", 68000)}
 
 
             
-            style={{
-              backgroundColor: "transparent",
-              border: "none",
-              borderRadius: "20px",
-              color: "#fff",
-              cursor: "pointer",
-              fontSize: "20px",
-              marginTop: "40px",
-              padding: "20px 70px",
-              transition:
-                "background-color 0.3s ease, transform 0.3s ease",
-              backdropFilter: "blur(5px) brightness(70%)",
-              transform: "scale(1)",
-            }}
+            
             
             onMouseOver={(e) => {
               e.currentTarget.style.transform = "scale(1.1)";

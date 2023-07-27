@@ -743,7 +743,7 @@ color: transparent;
 
 /*  Services  */
 
-
+/* services title */
 .servicestitle {
   font-size: 5vw;
   margin-bottom: 2vw;
@@ -759,7 +759,7 @@ color: transparent;
 }
 
 
-
+/* services container */
 .containerservices {
   display: flex;
   justify-content: center;
@@ -819,3 +819,35 @@ color: transparent;
     height: 820px;
   }
 }
+
+
+/* services button */
+
+
+.buttonservices {
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 40px;
+  padding: 20px 70px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  backdrop-filter: blur(5px) brightness(70%);
+  transform: scale(1);
+
+}
+
+/* backgroundColor: "transparent",
+              border: "none",
+              borderRadius: "20px",
+              color: "#fff",
+              cursor: "pointer",
+              fontSize: "20px",
+              marginTop: "40px",
+              padding: "20px 70px",
+              transition:
+                "background-color 0.3s ease, transform 0.3s ease",
+              backdropFilter: "blur(5px) brightness(70%)",
+              transform: "scale(1)", */
