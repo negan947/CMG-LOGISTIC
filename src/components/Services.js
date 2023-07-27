@@ -291,21 +291,9 @@ export const Services = () => {
             </li>
           </ul>
           <button
+            className="buttonservices2"
             onClick={() => handleCheckout("Premium Package", 118000)}
-            style={{
-              backgroundColor: "transparent",
-              border: "none",
-              borderRadius: "20px",
-              color: "#fff",
-              cursor: "pointer",
-              fontSize: "20px",
-              marginTop: "40px",
-              padding: "20px 70px",
-              transition:
-                "background-color 0.3s ease, transform 0.3s ease",
-              backdropFilter: "blur(5px) brightness(70%)",
-              transform: "scale(1)",
-            }}
+            
             onMouseOver={(e) => {
               e.currentTarget.style.transform = "scale(1.1)";
             }}
@@ -427,21 +415,9 @@ export const Services = () => {
             </li>
           </ul>
           <button
+            className="buttonservices3"
             onClick={() => handleCheckout("Business Package", 172000)}
-            style={{
-              backgroundColor: "transparent",
-              border: "none",
-              borderRadius: "20px",
-              color: "#fff",
-              cursor: "pointer",
-              fontSize: "20px",
-              marginTop: "40px",
-              padding: "20px 70px",
-              transition:
-                "background-color 0.3s ease, transform 0.3s ease",
-              backdropFilter: "blur(5px) brightness(70%)",
-              transform: "scale(1)",
-            }}
+            
             onMouseOver={(e) => {
               e.currentTarget.style.transform = "scale(1.1)";
             }}
