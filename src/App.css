@@ -84,9 +84,17 @@ p.danger {
 /************ Navbar Css ************/
 
 .logodev {
+  position: relative;
   width: 100px;
-  top: -40px;
+  
 }
+
+@media (max-width: 767px) {
+  .logodev {
+    top: -35px;
+  }
+}
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;
