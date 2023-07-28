@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from "./logo.svg";
+import wimage from "./assets/img/wimage.JPG";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./components/NavBar";
@@ -12,6 +13,7 @@ import { Services } from "./components/Services";
 import { BarLoader } from "react-spinners";
 import { Testimonials } from "./components/Testimonials";
 import  SuccesPage from "./components/SuccessPage";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 //import { Switch, Route } from "react-router-dom";
 
 
@@ -56,6 +58,16 @@ function App() {
         </div>
       ) : (
         <>
+          <FloatingWhatsApp 
+          accountName="CMG LOGISTICS"
+          allowEsc 
+          allowClickAway
+          darkMode
+          phoneNumber="+40772125155"
+          statusMessage="Typically replies within 10 minutes"
+          avatar={wimage} 
+          
+          />
           <NavBar />
           <Banner />
           <Skills />

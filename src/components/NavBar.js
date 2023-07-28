@@ -9,6 +9,7 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 import { FaPhone } from "react-icons/fa";
+import { MdEmail } from 'react-icons/md';
 
 export const NavBar = () => {
 
@@ -78,7 +79,7 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/alex-busuioc-1598a821b/" target="_blank"><img src={navIcon1} alt="" /></a>
                 <Nav.Link href="tel:+40772125155"><FaPhone style={{color: 'white'}} /></Nav.Link>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <Nav.Link href="mailto:alexbusuioc7@gmail.com?subject=Inquiry About Your Website Creation Services"><MdEmail style={{color: 'white'}} /></Nav.Link>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
