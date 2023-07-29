@@ -83,6 +83,7 @@ p.danger {
 }
 /************ Navbar Css ************/
 
+
 .logodev {
   position: relative;
   width: 100px;
@@ -106,6 +107,7 @@ nav.navbar {
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
+  backdrop-filter: blur(5px);
 }
 nav.navbar a.navbar-brand {
     width: 13%;

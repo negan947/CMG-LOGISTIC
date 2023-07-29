@@ -51,14 +51,14 @@ export const NavBar = () => {
   }
   return (
     <Router>
-      <Navbar expand="md" style={{
+      <Navbar  expand="md" style={{
         height: "100px",
         position: "fixed",
         top: 0,
         left: 0,
         right: 0,
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
-        backdropFilter: scrolled ? "blur(10px)" : "none"
+        
       }} className={scrolled ? "scrolled" : ""} expanded={expanded} onToggle={onToggle} ref={navbarRef}>
         <Container ref={containerRef} fluid={expanded} style={{ height: expanded ? 'auto' : '0px', width: '100%' }}>
           <Navbar.Brand href="/#home">
