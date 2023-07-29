@@ -660,6 +660,18 @@ page css thingy
   backdrop-filter: blur(5px) brightness(70%);
   transform: scale(1);
 }
+@media (max-width: 600px) {
+  .testimonial-text-container {
+    width: 370px;
+  }
+}
+@media (max-width: 470px) {
+  .testimonial-text-container {
+    width: 270px;
+  }
+}
+
+
 .testimonials-section {
   background-color: black;
   padding: 10rem 0;
@@ -733,15 +745,26 @@ color: transparent;
     padding: 5rem 3rem;
   }
 }
+@media (max-width: 600px) {
+  .all-testimonials__box {
+    width: 28rem;
+    
+  }
+} 
  @media (max-width: 470px) {
   .all-testimonials__box {
-    width: 25rem;
+    width: 21rem;
     
   }
 } 
 .all-testimonials__box p {
   font-size: 1.9rem;
   font-weight: 500;
+}
+@media (max-width: 470px) {
+  .all-testimonials__box p {
+    font-size: 1.57rem;
+  }
 }
 .all-testimonials__box__name {
   display: flex;
