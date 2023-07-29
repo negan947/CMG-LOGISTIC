@@ -652,7 +652,7 @@ page css thingy
   background-color: transparent;
   border: none;
   border-radius: 20px;
-  color: #fff;
+  color: rgb(202, 196, 196);
   font-size: 5px;
   margin-top: -40px;
   padding: 10px 10px;
@@ -668,6 +668,7 @@ page css thingy
 @media (max-width: 470px) {
   .testimonial-text-container {
     width: 270px;
+    
   }
 }
 
