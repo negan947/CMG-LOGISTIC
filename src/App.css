@@ -704,11 +704,26 @@ color: transparent;
   font-size: 4.2rem;
   margin-bottom: 1.4rem;
 }
+@media (max-width: 570px) {
+  .testimonials-content__title h2 {
+    font-size: 4rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 .testimonials-content__title p {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
   color: #706f7b;
   line-height: 1.4;
+}
+
+@media (max-width: 570px) {
+  .testimonials-content__title p {
+    font-size: 1.4rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 .all-testimonials {
