@@ -647,7 +647,19 @@ page css thingy
 
 */
 
-
+.testimonial-text-container {
+  width: 400px;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 5px;
+  margin-top: -40px;
+  padding: 10px 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  backdrop-filter: blur(5px) brightness(70%);
+  transform: scale(1);
+}
 .testimonials-section {
   background-color: black;
   padding: 10rem 0;
@@ -700,7 +712,8 @@ color: transparent;
   }
 }
 .all-testimonials__box {
-  background-color: #9810f2;
+  height: 70rem;
+  background: linear-gradient(to bottom right, #d63384, #6610f2);
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.08);
   width: 54rem;
   padding: 5.5rem;
@@ -712,14 +725,22 @@ color: transparent;
     padding: 5rem 3rem;
   }
 }
+ @media (max-width: 470px) {
+  .all-testimonials__box {
+    width: 25rem;
+    
+  }
+} 
 .all-testimonials__box p {
-  font-size: 2.2rem;
+  font-size: 1.9rem;
   font-weight: 500;
 }
 .all-testimonials__box__name {
   display: flex;
 }
 .all-testimonials__box__name__profile {
+  position: absolute;
+  bottom: 20px;
   display: flex;
   gap: 2rem;
   align-items: center;

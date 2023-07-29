@@ -23,11 +23,17 @@ export function Testimonials() {
                 <span className="quotes-icon">
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
+                <div className="testimonial-text-container"
+                onMouseOver={(e) => {
+                  e.currentTarget.style.transform = "scale(1.1)";
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.transform = "scale(1)";
+                }}>
                 <p>
-                  "We rented a car from this website and had an amazing
-                  experience! The booking was easy and the rental rates were
-                  very affordable. "
+                "I am beyond impressed with the website services provided by CMG LOGISTIC. They created a stunning website that perfectly represents my brand. The team was professional, responsive, and took the time to understand my business needs. I received numerous compliments from my clients, and the website has significantly boosted my online presence. I highly recommend CMG LOGISTIC for anyone looking to elevate their business with an exceptional website."
                 </p>
+                </div>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img2} alt="user_img" />
@@ -43,10 +49,17 @@ export function Testimonials() {
                 <span className="quotes-icon">
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
+                <div className="testimonial-text-container"
+                onMouseOver={(e) => {
+                  e.currentTarget.style.transform = "scale(1.1)";
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.transform = "scale(1)";
+                }}>
                 <p>
-                  "The car was in great condition and made our trip even better.
-                  Highly recommend for this car rental website!"
+                "I can't thank CMG LOGISTIC enough for the incredible website they built for my business. The attention to detail and creativity showcased in the design are outstanding. The team went above and beyond to ensure that the website was not only visually captivating but also user-friendly. They were always available to address my queries and made the entire process smooth and enjoyable. Thanks to CMG LOGISTIC, my online sales have skyrocketed, and I couldn't be happier with the results. Highly recommended!"
                 </p>
+                </div>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img3} alt="user_img" />
