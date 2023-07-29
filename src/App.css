@@ -711,6 +711,8 @@ color: transparent;
     padding: 0;
   }
 }
+
+
 .all-testimonials__box {
   height: 70rem;
   background: linear-gradient(to bottom right, #d63384, #6610f2);
@@ -720,6 +722,12 @@ color: transparent;
   position: relative;
   border-radius: 15px;
 }
+@media (max-width: 1215px) {
+  .all-testimonials__box {
+    width: 37rem;
+  }
+}
+
 @media (max-width: 1000px) {
   .all-testimonials__box {
     padding: 5rem 3rem;

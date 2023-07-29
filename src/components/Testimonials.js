@@ -1,5 +1,5 @@
-import Img2 from "../assets/img/pfp1.jpg";
-import Img3 from "../assets/img/pfp2.jpg";
+import Img2 from "../assets/img/pfp1.webp";
+import Img3 from "../assets/img/pfp2.webp";
 
 export function Testimonials() {
   return (
@@ -38,8 +38,8 @@ export function Testimonials() {
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img2} alt="user_img" />
                     <span>
-                      <h4>Parry Hotter</h4>
-                      <p>Belgrade</p>
+                      <h4>Rares Dulea</h4>
+                      <p>Pipera</p>
                     </span>
                   </div>
                 </div>
@@ -64,8 +64,8 @@ export function Testimonials() {
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img3} alt="user_img" />
                     <span>
-                      <h4>Ron Rizzly</h4>
-                      <p>Novi Sad</p>
+                      <h4>Alexa Dumitru</h4>
+                      <p>Bucharest</p>
                     </span>
                   </div>
                 </div>
