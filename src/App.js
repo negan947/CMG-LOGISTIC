@@ -41,7 +41,7 @@ function App() {
   return (
     
     <div className="App">
-      {isLoading ? (
+      {/* {isLoading ? (
         <div
           style={{
             display: "flex",
@@ -57,7 +57,7 @@ function App() {
           <p style={{ fontSize: "24px", color: "#fff" }}>Loading...</p>
         </div>
       ) : (
-        <>
+        <> */}
           <FloatingWhatsApp 
           accountName="CMG LOGISTICS"
           allowEsc 
@@ -79,8 +79,8 @@ function App() {
           <Footer />
           
           <div style={{ animation: "fade-out 2s forwards" }}></div>
-        </>
-      )}
+        
+      
     </div>
   );
 }
