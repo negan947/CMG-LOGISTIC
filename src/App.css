@@ -106,7 +106,7 @@ nav.navbar {
 }
 @media (max-width: 320px) {
   nav.navbar {
-    width: 400px;
+    width: 330px;
   }
 }
 
@@ -678,6 +678,13 @@ page css thingy
   }
 }
 
+@media (max-width: 320px) {
+  .testimonial-text-container {
+    width: 250px;
+    
+  }
+}
+
 
 .testimonials-section {
   background-color: black;
@@ -707,6 +714,9 @@ color: transparent;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
 }
+
+
+
 .testimonials-content__title h2 {
   font-size: 4.2rem;
   margin-bottom: 1.4rem;
@@ -718,6 +728,14 @@ color: transparent;
     margin-right: 20px;
   }
 }
+@media (max-width: 320px) {
+  .testimonials-content__title h2 {
+    font-size: 2.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 .testimonials-content__title p {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
@@ -779,6 +797,15 @@ color: transparent;
     
   }
 } 
+
+@media (max-width: 320px) {
+  .all-testimonials__box {
+    width: 19rem;
+    height: 75rem;
+    
+  }
+}
+
 .all-testimonials__box p {
   font-size: 1.9rem;
   font-weight: 500;
@@ -942,7 +969,11 @@ color: transparent;
     height: 820px;
   }
 }
-
+@media (max-width: 320px) {
+  .containerservicesbox3 {
+    height: 840px;
+  }
+}
 
 /* services button */
 
