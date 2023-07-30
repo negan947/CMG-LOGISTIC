@@ -833,6 +833,38 @@ color: transparent;
 }
 
 /*  Services  */
+/* features list  */
+
+.enfeatures li .icon {
+  color: rgb(0, 255, 34);
+  margin-right: 10px;
+}
+.icon {
+  color: rgb(0, 255, 34);
+  margin-right: 10px;
+}
+
+.icon2 {
+  color: rgb(233, 7, 7);
+  margin-right: 10px;
+}
+
+.enfeatures li .text {
+  color: rgb(221, 238, 230);
+  font-size: 17px;
+}
+.text {
+  color: rgb(221, 238, 230);
+  font-size: 17px;
+}
+.enfeatures li .text2 {
+  color: rgb(144, 153, 153);
+  font-size: 17px;
+}
+.text2 {
+  color: rgb(144, 153, 153);
+  font-size: 17px;
+}
 
 /* services title */
 .servicestitle {

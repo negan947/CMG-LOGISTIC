@@ -70,95 +70,81 @@ export const Services = () => {
               fontSize: "17px",
             }}
           >
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Responsive Design
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              User-Friendly Interface
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Essential Pages
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Contact Form
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Branding Integration
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Image Gallery
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Custom Design
-            </li>
+            <div className="enfeatures">
+  <li>
+    <FaCheck className="icon" />
+    <span className="text">Responsive Design</span>
+  </li>
+  <li>
+    <FaCheck className="icon" style={{ marginRight: "10px" }} />
+    <span className="text">User-Friendly Interface</span>
+  </li>
+  <li>
+    <FaCheck className="icon" style={{ marginRight: "10px" }} />
+    <span className="text">Essential Pages</span>
+  </li>
+  <li>
+    <FaCheck className="icon" style={{ marginRight: "10px" }} />
+    <span className="text">Contact Form</span>
+  </li>
+  <li>
+    <FaCheck className="icon" style={{ marginRight: "10px" }} />
+    <span className="text">Branding Integration</span>
+  </li>
+  <li>
+    <FaCheck className="icon" style={{ marginRight: "10px" }} />
+    <span className="text">Image Gallery</span>
+  </li>
 
-
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Interactive Elements
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Advanced Functionality
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Content Management System (CMS)
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Testimonials and Reviews
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Social Media Integration
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              E-commerce Integration
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Custom Forms
-
-            </li>
-
-
-
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Blog Integration
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              SEO Optimization
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Analytics and Reporting
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Multi-language Support
-
-            </li>
-            
+  <li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">Custom Design</span>
+</li>
+<li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">Interactive Elements</span>
+</li>
+<li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">Advanced Functionality</span>
+</li>
+<li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">Content Management System (CMS)</span>
+</li>
+<li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">Testimonials and Reviews</span>
+</li>
+<li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">Social Media Integration</span>
+</li>
+<li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">E-commerce Integration</span>
+</li>
+<li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">Custom Forms</span>
+</li>
+<li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">Blog Integration</span>
+</li>
+<li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">SEO Optimization</span>
+</li>
+<li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">Analytics and Reporting</span>
+</li>
+<li>
+  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
+  <span className="text2">Multi-language Support</span>
+</li>
+</div>
           </ul>
           <button
             className="buttonservices"
@@ -198,98 +184,80 @@ export const Services = () => {
               color: "#dcaadf",
               fontSize: "17px",
             }}>
+          
           <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Responsive Design
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Responsive Design
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              User-Friendly Interface
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Essential Pages
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Contact Form
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Branding Integration
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Image Gallery
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Custom Design
-            </li>
-
-
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Interactive Elements
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Advanced Functionality
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Content Management System (CMS)
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Testimonials and Reviews
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Social Media Integration
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              E-commerce Integration
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Custom Forms
-
-            </li>
-
-
-
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Blog Integration
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              SEO Optimization
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Analytics and Reporting
-
-            </li>
-            <li>
-              <FaTimes style={{ marginRight: "10px" }} />
-              Multi-language Support
-
-            </li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Responsive Design</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">User-Friendly Interface</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Essential Pages</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Contact Form</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Branding Integration</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Image Gallery</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Custom Design</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Interactive Elements</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Advanced Functionality</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Content Management System (CMS)</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Testimonials and Reviews</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Social Media Integration</span>
+</li>
+<li>
+  <span className="icon2"><FaTimes /></span>
+  <span className="text2">E-commerce Integration</span>
+</li>
+<li>
+  <span className="icon2"><FaTimes /></span>
+  <span className="text2">Custom Forms</span>
+</li>
+<li>
+  <span className="icon2"><FaTimes /></span>
+  <span className="text2">Blog Integration</span>
+</li>
+<li>
+  <span className="icon2"><FaTimes /></span>
+  <span className="text2">SEO Optimization</span>
+</li>
+<li>
+  <span className="icon2"><FaTimes /></span>
+  <span className="text2">Analytics and Reporting</span>
+</li>
+<li>
+  <span className="icon2"><FaTimes /></span>
+  <span className="text2">Multi-language Support</span>
+</li>
+          
           </ul>
           <button
             className="buttonservices2"
@@ -326,94 +294,82 @@ export const Services = () => {
               fontSize: "17px",
             }}>
           <li>
-        
-              <FaCheck style={{ marginRight: "10px" }} />
-              Responsive Design
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              User-Friendly Interface
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Essential Pages
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Contact Form
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Branding Integration
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Image Gallery
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Custom Design
-            </li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Responsive Design</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">User-Friendly Interface</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Essential Pages</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Contact Form</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Branding Integration</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Image Gallery</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Custom Design</span>
+</li>
 
 
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Interactive Elements
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Advanced Functionality
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Content Management System (CMS)
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Testimonials and Reviews
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Social Media Integration
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              E-commerce Integration
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Custom Forms
-
-            </li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Interactive Elements</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Advanced Functionality</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Content Management System (CMS)</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Testimonials and Reviews</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Social Media Integration</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">E-commerce Integration</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Custom Forms</span>
+</li>
 
 
 
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Blog Integration
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              SEO Optimization
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Analytics and Reporting
-
-            </li>
-            <li>
-              <FaCheck style={{ marginRight: "10px" }} />
-              Multi-language Support
-
-            </li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Blog Integration</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">SEO Optimization</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Analytics and Reporting</span>
+</li>
+<li>
+  <span className="icon"><FaCheck /></span>
+  <span className="text">Multi-language Support</span>
+</li>
           </ul>
           <button
             className="buttonservices3"
