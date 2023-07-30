@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-const SuccessPage = () => {
+function SuccessPage() {
   return (
     <div>
-      <h1>New Page</h1>
-      <p>This is a new page!</p>
+      <h1>Thank you for your payment!</h1>
+      <p>Your order has been processed successfully.</p>
     </div>
   );
-};
+}
 
 export default SuccessPage;

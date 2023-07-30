@@ -104,6 +104,12 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
+@media (max-width: 320px) {
+  nav.navbar {
+    width: 400px;
+  }
+}
+
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;

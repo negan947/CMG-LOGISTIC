@@ -2,9 +2,10 @@ import React from "react";
 import { FaCheck } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 import { Stripe } from "stripe";
+import SuccessPage from "./SuccessPage";
 
 
-const stripe = new Stripe("sk_test_51Gn4IkL3vxi3m0Vhu2oHz9OMpH1h5ZLzmbbyyzIWUjr26R6EmS5UZKETAuPBbqJenWtNeaBcoUQYIfMIsPpq5Br600Bcp7Xfzf");
+const stripe = new Stripe("sk_test_51NZJ5yH9OcFHqU1KeMQdfzMCMhnmKhWjDco29vXYKQQB7c1G6MyKYXcJtxB5kHmq6Ef1jpn8Lxgdw77ZKcD8uxHS00nyO59uRQ");
 
 
 
@@ -25,7 +26,7 @@ export const Services = () => {
         },
       ],
       mode: "payment",
-      success_url: "http://localhost:3000/",
+      success_url: "http://localhost:3000/success",
       cancel_url: "http://localhost:3000/",
     });
     window.location.href = session.url;
