@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from "./logo.svg";
-import wimage from "./assets/img/wimage.JPG";
+import wimage from "./assets/img/wimage.webp";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./components/NavBar";
