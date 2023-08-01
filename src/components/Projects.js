@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/project-img2.avif";
 import projImg3 from "../assets/img/project-img3.avif";
 import projImg4 from "../assets/img/project-img4.avif";
 import projImg5 from "../assets/img/project-img5.avif";
+import projImg6 from "../assets/img/project-img6.avif";
 import colorSharp2 from "../assets/img/color-sharp2.webp";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -38,9 +39,9 @@ export const Projects = () => {
       imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Rent a Car 🚗",
+      description: "Rent a car is a car rental website that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
+      imgUrl: projImg6,
     },
   ];
 
