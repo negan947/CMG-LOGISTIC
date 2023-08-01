@@ -65,9 +65,7 @@ function App() {
           darkMode
           phoneNumber="+40772125155"
           statusMessage="Typically replies within 10 minutes"
-          avatar={wimage} 
-          
-          />
+          avatar={wimage} />
           <NavBar />
           <Banner />
           <Skills />

@@ -71,6 +71,18 @@ export const Services = () => {
             }}
           >
             <div className="enfeatures">
+    <li>
+    <FaCheck className="icon" />
+    <span className="text">Secure SSL certificate</span>
+  </li>
+    <li>
+    <FaCheck className="icon" />
+    <span className="text">Fast Loading Speed</span>
+  </li>
+    <li>
+    <FaCheck className="icon" />
+    <span className="text">Custom Domain Name</span>
+  </li>
   <li>
     <FaCheck className="icon" />
     <span className="text">Responsive Design</span>
@@ -96,22 +108,13 @@ export const Services = () => {
     <span className="text">Image Gallery</span>
   </li>
 
-  <li>
-  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
-  <span className="text2">Custom Design</span>
-</li>
-<li>
-  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
-  <span className="text2">Interactive Elements</span>
-</li>
+  
+
 <li>
   <FaTimes className="icon2" style={{ marginRight: "10px" }} />
   <span className="text2">Advanced Functionality</span>
 </li>
-<li>
-  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
-  <span className="text2">Content Management System (CMS)</span>
-</li>
+
 <li>
   <FaTimes className="icon2" style={{ marginRight: "10px" }} />
   <span className="text2">Testimonials and Reviews</span>
@@ -128,10 +131,7 @@ export const Services = () => {
   <FaTimes className="icon2" style={{ marginRight: "10px" }} />
   <span className="text2">Custom Forms</span>
 </li>
-<li>
-  <FaTimes className="icon2" style={{ marginRight: "10px" }} />
-  <span className="text2">Blog Integration</span>
-</li>
+
 <li>
   <FaTimes className="icon2" style={{ marginRight: "10px" }} />
   <span className="text2">SEO Optimization</span>
@@ -184,6 +184,20 @@ export const Services = () => {
               color: "#dcaadf",
               fontSize: "17px",
             }}>
+
+<li>
+    <FaCheck className="icon" />
+    <span className="text">Secure SSL certificate</span>
+  </li>
+
+<li>
+    <FaCheck className="icon" />
+    <span className="text">Fast Loading Speed</span>
+  </li>
+<li>
+    <FaCheck className="icon" />
+    <span className="text">Custom Domain Name</span>
+  </li>
           
           <li>
   <span className="icon"><FaCheck /></span>
@@ -209,22 +223,13 @@ export const Services = () => {
   <span className="icon"><FaCheck /></span>
   <span className="text">Image Gallery</span>
 </li>
-<li>
-  <span className="icon"><FaCheck /></span>
-  <span className="text">Custom Design</span>
-</li>
-<li>
-  <span className="icon"><FaCheck /></span>
-  <span className="text">Interactive Elements</span>
-</li>
+
+
 <li>
   <span className="icon"><FaCheck /></span>
   <span className="text">Advanced Functionality</span>
 </li>
-<li>
-  <span className="icon"><FaCheck /></span>
-  <span className="text">Content Management System (CMS)</span>
-</li>
+
 <li>
   <span className="icon"><FaCheck /></span>
   <span className="text">Testimonials and Reviews</span>
@@ -241,10 +246,7 @@ export const Services = () => {
   <span className="icon2"><FaTimes /></span>
   <span className="text2">Custom Forms</span>
 </li>
-<li>
-  <span className="icon2"><FaTimes /></span>
-  <span className="text2">Blog Integration</span>
-</li>
+
 <li>
   <span className="icon2"><FaTimes /></span>
   <span className="text2">SEO Optimization</span>
@@ -293,6 +295,19 @@ export const Services = () => {
               color: "#dcaadf",
               fontSize: "17px",
             }}>
+
+<li>
+    <FaCheck className="icon" />
+    <span className="text">Secure SSL certificate</span>
+  </li>
+<li>
+    <FaCheck className="icon" />
+    <span className="text">Fast Loading Speed</span>
+  </li>
+<li>
+    <FaCheck className="icon" />
+    <span className="text">Custom Domain Name</span>
+  </li>
           <li>
   <span className="icon"><FaCheck /></span>
   <span className="text">Responsive Design</span>
@@ -317,24 +332,15 @@ export const Services = () => {
   <span className="icon"><FaCheck /></span>
   <span className="text">Image Gallery</span>
 </li>
-<li>
-  <span className="icon"><FaCheck /></span>
-  <span className="text">Custom Design</span>
-</li>
 
 
-<li>
-  <span className="icon"><FaCheck /></span>
-  <span className="text">Interactive Elements</span>
-</li>
+
+
 <li>
   <span className="icon"><FaCheck /></span>
   <span className="text">Advanced Functionality</span>
 </li>
-<li>
-  <span className="icon"><FaCheck /></span>
-  <span className="text">Content Management System (CMS)</span>
-</li>
+
 <li>
   <span className="icon"><FaCheck /></span>
   <span className="text">Testimonials and Reviews</span>
@@ -354,10 +360,7 @@ export const Services = () => {
 
 
 
-<li>
-  <span className="icon"><FaCheck /></span>
-  <span className="text">Blog Integration</span>
-</li>
+
 <li>
   <span className="icon"><FaCheck /></span>
   <span className="text">SEO Optimization</span>
