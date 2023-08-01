@@ -71,6 +71,10 @@ export const Services = () => {
             }}
           >
             <div className="enfeatures">
+            <li>
+    <FaCheck className="icon" />
+    <span className="text">FAQs section</span>
+  </li>
     <li>
     <FaCheck className="icon" />
     <span className="text">Secure SSL certificate</span>
@@ -184,7 +188,10 @@ export const Services = () => {
               color: "#dcaadf",
               fontSize: "17px",
             }}>
-
+<li>
+    <FaCheck className="icon" />
+    <span className="text">FAQs section</span>
+  </li>
 <li>
     <FaCheck className="icon" />
     <span className="text">Secure SSL certificate</span>
@@ -295,7 +302,10 @@ export const Services = () => {
               color: "#dcaadf",
               fontSize: "17px",
             }}>
-
+<li>
+    <FaCheck className="icon" />
+    <span className="text">FAQs section</span>
+  </li>
 <li>
     <FaCheck className="icon" />
     <span className="text">Secure SSL certificate</span>
