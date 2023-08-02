@@ -581,30 +581,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -122px;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
-.contact-bx h3 {
+.contact-heading {
+  margin-bottom: 20px;
+}
+
+.contact-heading h3 {
   font-weight: 900;
   letter-spacing: 0.5px;
   line-height: 1.2em;
-  margin-right: 320px;
+  font-size: 48px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #d63384, #6610f2);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+-webkit-text-fill-color: transparent;
 }
 
-.contact-bx .contact-info {
-  margin-bottom: 20px;
+
+.contact-details {
   font-size: 28px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.contact-bx .contact-label {
+.contact-details .contact-label {
   font-weight: bold;
   margin-right: 15px;
 }
 
-.contact-bx .contact-value {
+.contact-details .contact-value {
   font-style: italic;
+  font-size: 36px;
 }
 
 /************ Footer Css ************/
