@@ -69,7 +69,7 @@ function App() {
           <NavBar />
           <Banner />
           <Skills />
-          <Services />
+          
           <Projects />
           
           <Testimonials />
